@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameGeneral.ui.Options">
+
+
+
+    <RadioGroup
+        android:id="@+id/deck_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/grand_hotel"
+            android:text="@string/main_dish"
+            android:textAlignment="viewStart"
+            android:textSize="60sp" />
+
+        <RadioButton
+            android:id="@+id/dessert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/grand_hotel"
+            android:text="@string/desserts"
+            android:textAlignment="viewStart"
+            android:textSize="60sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/grand_hotel"
+        android:text="@string/themes"
+        android:textSize="70sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="804dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dishes" />
+
+    <RadioGroup
+        android:id="@+id/radio_ORDER"
+        android:layout_width="219dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <RadioGroup
+        android:id="@+id/radio_Deck"
+        android:layout_width="267dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/grand_hotel"
+        android:text="@string/order"
+        android:textSize="70sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/deck_choice" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/grand_hotel"
+        android:text="@string/number_of_cards"
+        android:textSize="70sp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/radio_ORDER" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/start_game"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/flickrimage"
+        app:layout_constraintTop_toBottomOf="@+id/Radio_levels"
+        app:layout_constraintVertical_bias="0.937" />
+
+    <TextView
+        android:id="@+id/num_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/grand_hotel"
+        android:text="@string/mode"
+        android:textSize="70sp"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/radio_Deck" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/num_cards"
+        app:layout_constraintTop_toBottomOf="@+id/num_cards">
+
+        <RadioButton
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/grand_hotel"
+            android:text="@string/image"
+            android:textSize="60sp"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="566dp" />
+
+        <RadioButton
+            android:id="@+id/image_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/grand_hotel"
+            android:text="@string/image_word"
+            android:textSize="60sp" />
+
+        <RadioButton
+            android:id="@+id/flickr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/grand_hotel"
+            android:text="@string/choose_your_own"
+            android:textSize="60sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/flickrimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/choose_images"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/start"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="168dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/grand_hotel"
+        android:text="@string/level"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/Radio_levels"
+        android:layout_width="746dp"
+        android:layout_height="78dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/level"
+        app:layout_constraintTop_toBottomOf="@+id/level">
+
+        <RadioButton
+            android:id="@+id/easy"
+            android:layout_width="261dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/grand_hotel"
+            android:text="@string/easy"
+            android:textSize="60sp" />
+
+        <RadioButton
+            android:id="@+id/normal"
+            android:layout_width="261dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/grand_hotel"
+            android:text="@string/normal"
+            android:textSize="60sp" />
+
+        <RadioButton
+            android:id="@+id/hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/grand_hotel"
+            android:text="@string/hard"
+            android:textSize="60sp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
