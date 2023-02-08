@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "CMPT276Project"
