@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Find DaMatch</string>
+    <string name="play">Play</string>
+    <string name="this_app_is_bult_by">This app is bult by</string>
+    <string name="helps">HELP</string>
+    <string name="help">Help</string>
+    <string name="revika_jain">Revika Jain</string>
+    <string name="lucas_park">Lucas Park</string>
+    <string name="vivian_phan">Vivian Phan</string>
+    <string name="riya_roopesh">Riya Roopesh</string>
+    <string name="themes">Themes:</string>
+    <string name="find_damatch">Find DaMatch</string>
+    <string name="skip">skip</string>
+    <string name="howtoplay">--------------------------\nHow to play?\n--------------------------</string >
+    <string name="htptext">Find the mathcing food items among the six items that appear in the two plates displayed on the screen. The player has to try and get through all the plates in the shortest amount of time. The previous five high scores will be displayed on the screen.\n
+    the user can choose from various modes and difficulty levels. The user can also access flikr to get the images from there. </string>
+    <string name="abt_author">--------------------------\nAbout the author?\n--------------------------</string>
+    <string name="abt_author_text">This app is built by\n Revika Jain \n Lucas Park \n Vivian Phan \n Riya Roopesh\n who are students of CMPT-276\n taught by Dr Brian Fraser during Summer2020</string>
+    <string name="citations">--------------------------\nCitations\n--------------------------</string>
+    <string name="citationstext">https://www.youtube.com/watch?v=xdntC2qM_ZQ
+    \n https://medium.com/@lara.zyryanova/how-to-draw-a-volume-button-onto-a-canvas-in-android-c0dd72b7fee5
+    \n https://www.youtube.com/watch?v=4aYhSOyAYQQ
+    \n https://www.youtube.com/watch?v=fxg_hq5MJlI
+    \n https://search.muz.li/MjdmY2QyZTFi
+    \n https://pngtree.com
+    \n https://favpng.com
+    \n https://www.pngguru.com
+    \n https://www.colourbox.com
+    \n https://www.pinterest.com/
+    \n https://www.123rf.com/clipart-vector/chef.html?sti=mja0rpl5xqk81soofl|
+    \n https://engfto.com/index/neon_logo_maker_online/0-23
+    \n https://stackoverflow.com/questions/44358440/how-can-i-set-an-imageviews-position-dynamically-in-constraint-layout?fbclid=IwAR0aRWLJl4LDmy6sOjqXHV0CSgTjwKV4W9FkNrcJydm-dUZbcdBN9w2G6Os
+    \n https://stackoverflow.com/questions/52620046/android-circle-constraint-programmatically-radius?fbclid=IwAR0Bjj5AFt-ABxHHirCnrrM02qewu7yQVqsGr9SKFkhWbI9Nvvuo6mbsHVg
+    \n https://www.youtube.com/watch?v=fIWPSni7kUk
+    \n http://androidbitmaps.blogspot.com/2015/04/loading-images-in-android-part-iii-pick.html
+    \n https://www.youtube.com/watch?v=BLffEJkREMQt=1s
+    \n https://stackoverflow.com/questions/15662258/how-to-save-a-bitmap-on-internal-storage?fbclid=IwAR0qkQ5ymeVDKpBsghuHKi9i9ZcArClFMaO5vmjhUNF1n11I6zcvXwYo5YE
+    </string>
+    <string name="text">text</string>
+    <string name="reset">reset</string>
+    <string name="close">close</string>
+    <string name="high_scores">HIGH SCORES</string>
+    <string name="main_dish">Main dish</string>
+    <string name="desserts">Desserts</string>
+
+    <string name="clear">Clear</string>
+    <string name="textview">TextView</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="message">Enter your name to get in the leader board</string>
+    <string name="save">SAVE</string>
+    <string name="hint">ex: Josh</string>
+    <string name="cancel1"><![CDATA[<CANCEL>]]></string>
+    <string name="new_game"><![CDATA[<NEW GAME>]]></string>
+    <string name="number_of_cards">Number Of Cards:</string>
+    <string name="image">Image</string>
+    <string name="image_word">Image-Word</string>
+    <string name="order">Order:</string>
+    <string name="confirm">Do you want to change game level?</string>
+    <string name="mode">Mode:</string>
+    <string name="start_game">START GAME</string>
+    <string name="optionss">Options</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+
+
+
+    <string name="names">Game created by Lucas Park, Revika Jain,
+        \n Riya Roopesh, Tinh Van Phan</string>
+    <string name="flickr">Flickr</string>
+
+
+    <string name="flickr_images">Flickr Images</string>
+    <string name="add">ADD</string>
+    <string name="remove">REMOVE</string>
+    <string name="toastt">\"The user has not chosen enough images to play with order \"</string>
+    <string name="t">. Please select more images or change the order.</string>
+    <string name="export_cards"><![CDATA[<Export Cards>]]></string>
+    <string name="easy">Easy</string>
+    <string name="level">Level:</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Hard</string>
+    <string name="add_flicker_images">ADD FLICKR IMAGES</string>
+    <string name="add_my_images">ADD MY IMAGES</string>
+    <string name="choose_images">CHOOSE IMAGES</string>
+    <string name="choose_your_own">Choose your own</string>
+    <string name="img">Image</string>
+    <string name="help2">HELP</string>
+    <string name="ops">OPTIONS</string>
+  >
+
+    <string name="options">OPTIONS</string>
+    <string name="Pile">\"Pile Size: \"</string>
+    <string name="order2">\", Order: \"</string>
+    <string name="Logan">Logan</string>
+    <string name="Kelvin">Kelvin</string>
+    <string name="Sara">Sara</string>
+    <string name="Aaron">Aaron</string>
+    <string name="Jessy">Jessy</string>
+
+
+</resources>

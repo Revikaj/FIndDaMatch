@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme">
+        <item>Food</item>
+        <item>Dessert</item>
+    </string-array>
+    <string name="Default_theme">Food</string>
+    <integer-array name="order_cards">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
+    <integer name="Default_order_cards">2</integer>
+    <string-array name="Pile_Size">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>All</item>
+    </string-array>
+    <string name="Default_pile">All</string>
+
+
+
+    <string-array name="Level">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+    <string name="Default_level">Easy</string>
+
+</resources>
